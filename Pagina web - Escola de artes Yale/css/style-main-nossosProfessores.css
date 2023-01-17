@@ -1,0 +1,49 @@
+.container_nossosProfessores{
+    margin: auto;
+    width: 90%;
+
+}
+
+.container_imagens_nossosProfessores{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+
+}
+
+article{
+    width: 20%;
+
+}
+
+.imagem_nossosProfessores{
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 150px;
+
+}
+
+
+.titulo_nossosProfessores{
+    text-align: center;
+    font-size: 30px;
+}
+
+.nome_nossosProfessores{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.descricao_nossosProfessores{
+    font-size: 16px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+
+}
+
+.nome_descricao_nossosProfessores{
+    border-right: 1px solid #b3b7b5;
+    margin: 20px 0 0 0;
+
+}

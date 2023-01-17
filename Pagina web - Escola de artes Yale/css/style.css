@@ -1,0 +1,98 @@
+/* Tag: Aside, nav e a section com os links principais */
+.container_links, .nav-lateral, .container_link_nav-lateral{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-lateral{
+    margin-left: 10px;
+
+}
+
+.link_nav-lateral{
+    color: #000000;
+    font-size: 17px;
+    margin: 15px ;
+    text-decoration: none;
+
+}
+
+.link_nav-lateral:hover{
+    background: #c5c3c3;
+    border-radius: 5PX;
+    color: #111111;
+    padding: 10px;
+    text-decoration: underline;
+    transition: all 0.4s;
+
+}
+
+.nome_links-rapidos_nav-lateral:hover{
+    background: #c5c3c3;
+    color: #111111;
+    padding: 10px;
+    text-decoration: underline;
+    transition: all 0.4s;
+    
+}
+
+.nome_links-rapidos_nav-lateral,.label_links-rapidos_nav-lateral{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+.container_links{
+    background: #FFFFFF;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 17%;
+
+}
+
+.nav-lateral-footer{
+    padding: 30px;
+    margin: 25px 0 0 0;
+
+}
+
+
+.linha_sobreNos{
+    margin: 15px auto;
+}
+
+
+.nav-lateral-footer_titulo{
+    font-size: 16px;
+    padding: 10px 10px 0;
+    text-align: center;
+
+}
+
+/* imagen - links principais */
+.img_links-principais{
+    margin-right: 15px;
+    vertical-align: middle;
+    width: 20px;
+
+}
+
+/* Confi para deixar o aside e o main juntos */
+
+main{
+    background: #FFFFFF;
+    flex: 1;
+
+}
+
+.container_main_aside{
+    display: flex;
+
+}
+
+

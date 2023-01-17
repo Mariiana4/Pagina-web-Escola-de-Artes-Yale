@@ -1,0 +1,42 @@
+.nav_selecaoCursos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container_selecaoCursos{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 15px;
+    width: 75%;
+
+}
+
+.selecaoCursos_lista{
+    background: #0483CB;
+    border-radius: 26px;
+    border: 1px solid #0483CB;
+    box-shadow: grey 5px 4px 10px;
+    color: #FFFFFF;
+    padding: 15px;
+
+}
+.selecaoCursos_lista:hover{
+    background: #add8e6;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.a_selecaoCursos{
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.a_selecaoCursos:hover{
+    background: #D9D9D9;
+    border-radius: 4px;
+    transition: 0.1s;
+    text-decoration: underline;
+}

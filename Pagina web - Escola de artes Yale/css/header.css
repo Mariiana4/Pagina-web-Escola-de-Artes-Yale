@@ -1,0 +1,103 @@
+body {
+    background:  #FFFFFF;
+    font-family: 'Montserrat';
+    height: 100vh;
+    margin: 0;
+}
+.cabecalho {
+    margin-right: 0 auto;
+    position: initial;
+    padding-left: 50px;
+    padding: 8px;
+}
+.imagem-logo {
+    padding: 5px;
+}
+.nav-header {
+    position: absolute;
+    top: 4%;
+    right: 35px;
+}
+.nav-li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+.nav-a {
+    color: white;
+    font-size: 17px;
+    padding-right: 18px;
+	text-decoration: none;
+    padding-left: 20px;
+}
+.nav-a:hover {
+    color: black;
+    transition: 0.3s;
+} 
+.cabecalho-lado {
+    align-items: center;
+    background: #0483CB;
+    border: solid 1px #0483CB;
+    box-shadow: grey 5px 4px 10px;
+    justify-content: space-around;
+    border-radius: 26px;
+    display: inline;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    width: 75%;
+}
+.cabecalho-lado:hover {
+    background: #add8e6;
+    color: black;
+}
+#cursos, #calendario {
+    color: black;
+    padding: 10px;
+}
+#cursos:hover {
+    color: #add8e6;
+}
+#calendario:hover {
+    color: #add8e6;
+}
+
+.lupa {
+    background-color: white;
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 5px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    justify-content: space-between;
+    align-items: center;
+    position: initial;
+    padding-left: 50px;
+    display: inline;
+}
+.imagem-pesquisa {
+    padding-left: 5px;
+
+}
+.lupa-type {
+    background: none;
+    border: none;
+    outline: none;
+}
+.lupa-class .microfone-class {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+

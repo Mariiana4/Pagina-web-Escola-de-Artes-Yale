@@ -1,0 +1,37 @@
+.container_nossasExposicoes{
+    margin: 5% 0 0 0;
+}
+.container_imagens_nossasExposicoes{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+
+}
+
+article{
+    width: 20%;
+
+}
+
+.imagem_nossasExposicoes{
+    margin: 0 auto;
+    width: 240px;
+
+}
+
+
+.titulo_nossasExposicoes{
+    text-align: center;
+    font-size: 30px;
+}
+
+.nome_nossasExposicoes{
+    font-size: 25px;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    margin: 50px auto;
+}
